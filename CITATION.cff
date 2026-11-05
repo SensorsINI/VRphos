@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use VRphos, please cite it as below, together with the Dynaphos paper."
+title: VRphos
+type: software
+authors:
+  - family-names: Hahn
+    given-names: Niklas
+  - family-names: Zünd
+    given-names: Timo
+  - family-names: Liu
+    given-names: Shih-Chii
+doi: 10.5281/zenodo.23978712
+license: GPL-3.0
+references:
+  - type: article
+    title: Towards biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses
+    authors:
+      - family-names: van der Grinten
+        given-names: Maureen
+      - family-names: de Ruyter van Steveninck
+        given-names: Jaap
+      - family-names: Lozano
+        given-names: Antonio
+      - family-names: Pijnacker
+        given-names: Laura
+      - family-names: Rueckauer
+        given-names: Bodo
+      - family-names: Roelfsema
+        given-names: Pieter
+      - family-names: van Gerven
+        given-names: Marcel
+      - family-names: van Wezel
+        given-names: Richard
+      - family-names: Güçlü
+        given-names: Umut
+      - family-names: Güçlütürk
+        given-names: Yağmur
+    journal: eLife
+    volume: 13
+    start: e85812
+    year: 2024
+    doi: 10.7554/eLife.85812

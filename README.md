@@ -79,14 +79,18 @@ the apps implement the same model. If you use VRphos, please also cite the Dynap
 
 ## Citation
 
-If you use VRphos, please cite:
+If you use VRphos, please cite it and the Dynaphos paper:
+
+> Hahn, N., Zünd, T., & Liu, S.-C. (2026). *VRphos*. Zenodo. https://doi.org/10.5281/zenodo.23978712
 
 ```bibtex
-@article{vrphos,
-  title   = {TODO},
-  author  = {TODO},
-  journal = {TODO},
-  year    = {TODO}
+@software{hahn2026vrphos,
+  title     = {VRphos},
+  author    = {Hahn, Niklas and Z{\"u}nd, Timo and Liu, Shih-Chii},
+  publisher = {Zenodo},
+  year      = {2026},
+  doi       = {10.5281/zenodo.23978712},
+  url       = {https://doi.org/10.5281/zenodo.23978712}
 }
 
 @article{vandergrinten2024dynaphos,
