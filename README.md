@@ -65,9 +65,6 @@ streams electrode currents to the app over TCP.
 
 ## Acknowledgements
 
-VRphos continues the semester project [MSP-2025-09-VRphos](https://github.com/SensorsINI/MSP-2025-09-VRphos)
-(Sensors Group, Institute of Neuroinformatics, University of Zurich and ETH Zurich).
-
 The phosphene model is [Dynaphos](https://github.com/neuralcodinglab/dynaphos)
 (Neural Coding Lab, Donders Institute); `python/utils/dynaphos/` contains an adapted copy of it, and
 the apps implement the same model. If you use VRphos, please also cite the Dynaphos paper:
