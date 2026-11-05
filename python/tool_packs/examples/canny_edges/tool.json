@@ -1,0 +1,37 @@
+{
+    "format_version": 1,
+    "name": "Canny edges",
+    "description": "Canny edge detector as a network (blur, Sobel, thinning, double threshold, hysteresis): thin, connected outlines with less noise than Sobel.",
+    "author": "VRphos",
+    "version": "1.0",
+    "engine": "2.6.1",
+    "model": "model.sentis",
+    "type": "map",
+    "rate_hz": 30.0,
+    "input": {
+        "width": 256,
+        "height": 256,
+        "channels": "gray",
+        "mean": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "std": [
+            1.0,
+            1.0,
+            1.0
+        ]
+    },
+    "output": {
+        "activation": "none",
+        "threshold": 0.5,
+        "invert": false,
+        "unit": "normalized"
+    },
+    "yolo": {
+        "confidence": 0.4000000059604645,
+        "iou": 0.5,
+        "classes": []
+    }
+}

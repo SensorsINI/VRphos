@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "com.unity.ai.inference": "2.6.1",
+    "com.unity.toolchain.linux-x86_64": "2.0.11"
+  }
+}

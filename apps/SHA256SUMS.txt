@@ -1,0 +1,2 @@
+e05db1fb867d01b4c7d2aa35c6b97f0b32eb9a310943b312a47b6493bfffeb6a  VRphos_Android.apk
+9172282b858fb29ed47fed06f1aa63cd6bd6981f1cb28cc7ef8cba8cd32c1d25  VRphos_MetaQuest.apk
