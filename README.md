@@ -40,8 +40,8 @@ streams electrode currents to the app over TCP.
    See [docs/using_the_app.md](docs/using_the_app.md).
 3. **Or stream from a PC** ([docs/tcp_server.md](docs/tcp_server.md)):
    ```bash
-   cd python && ./setup.sh && source .venv/bin/activate
-   python vrphos_server.py
+   cd python && uv sync
+   uv run python vrphos_server.py
    ```
    and set *Input* to *Remote server* in the app.
 
@@ -59,7 +59,7 @@ streams electrode currents to the app over TCP.
 
 - Meta Quest 3 or 3S (Horizon OS with passthrough camera access), or an Android phone
   (Android 10+, arm64, Vulkan or OpenGL ES 3)
-- For the PC tools: Python 3.11+, `adb` (Android platform tools)
+- For the PC tools: [uv](https://docs.astral.sh/uv/) (installs Python 3.11 and the dependencies), `adb` (Android platform tools)
 - For converting tool packs: Unity 6 (6000.2 or newer) with the Inference Engine package (installed
   automatically by the converter project)
 

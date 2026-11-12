@@ -1,8 +1,8 @@
 # VRphos Python tools
 
 ```bash
-./setup.sh                     # creates .venv and installs requirements.txt
-source .venv/bin/activate
+uv sync                        # creates .venv from pyproject.toml / uv.lock (needs uv)
+source .venv/bin/activate      # or run everything with `uv run python ...`
 ```
 
 | file / folder | purpose | docs |
@@ -12,6 +12,7 @@ source .venv/bin/activate
 | `tool_packs/make_tool_pack.py` | create and test tool packs (your own networks) on the PC | [tool_packs.md](../docs/tool_packs.md) |
 | `tool_packs/make_examples.py` | rebuilds the example tool packs in `tool_packs/examples/` | [tool_packs.md](../docs/tool_packs.md) |
 | `benchmark/run_benchmark.py` | runs the in-app performance benchmark over adb and collects the results | [benchmark.md](../docs/benchmark.md) |
+| `pyproject.toml`, `uv.lock` | Python version and dependencies (`uv add <pkg>` to add one) | |
 | `config/params.yaml` | Dynaphos parameters, ports, active layout | |
 | `layout_data/` | phosphene layouts (served by `vrphos_server.py`) | [layouts.md](../docs/layouts.md) |
 | `utils/network_servers.py` | HTTP + TCP servers, reusable for your own stimulation source | [tcp_server.md](../docs/tcp_server.md#writing-your-own-source) |

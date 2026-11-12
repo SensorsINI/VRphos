@@ -10,12 +10,14 @@ streams the currents to the app.
 
 ## Setup
 
-Python 3.11+ is recommended.
+The Python tools are managed with [uv](https://docs.astral.sh/uv/) (install:
+`curl -LsSf https://astral.sh/uv/install.sh | sh`). uv installs Python 3.11 and all dependencies
+from `pyproject.toml` / `uv.lock` into `python/.venv`:
 
 ```bash
 cd python
-./setup.sh                    # creates .venv and installs requirements.txt
-source .venv/bin/activate
+uv sync                       # creates .venv with the locked dependencies
+source .venv/bin/activate     # or prefix every command with `uv run`, e.g. uv run python vrphos_server.py
 ```
 
 ## Run
